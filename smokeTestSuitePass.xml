@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Locust Smoke Test Suite">
+ 	<listeners>
+		<listener class-name="com.weframeandwork.qa.report.testListener"/>
+	</listeners>
+
+    <test name="Smoke Test">
+        <classes>
+            <class name="com.weframeandwork.qa.testcases.loginPageTest"/>
+        </classes>
+    </test>
+</suite>

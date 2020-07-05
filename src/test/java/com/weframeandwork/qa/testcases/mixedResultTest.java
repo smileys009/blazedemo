@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import com.weframeandwork.qa.base.testBase;
 import com.weframeandwork.qa.pages.loginPage;
 
-public class loginPageTest extends testBase {
+public class mixedResultTest extends testBase {
 	@BeforeMethod
 	public void driverStart() 
 	{
@@ -16,14 +16,14 @@ public class loginPageTest extends testBase {
 	}
 
 	@Test
-	public void exampleofPassedTestCase() 
+	public void failedTestOne() 
 	{
 		loginPage loginPage = new loginPage(driver);
-		Assert.assertEquals(loginPage.getBlankError(), "Invalid email address.");
+		Assert.assertEquals(loginPage.getBlankError(), "Invalid email address");
 	}
 
 	@Test
-	public void exampleofFailedTestCase() 
+	public void workingTestOne() 
 	{
 		loginPage loginPage = new loginPage(driver);
 		Assert.assertEquals(loginPage.getBlankError(), "Invalid email address.");
@@ -34,7 +34,5 @@ public class loginPageTest extends testBase {
 	{
 		driver.quit();
 	}
-	    
-
 }
 

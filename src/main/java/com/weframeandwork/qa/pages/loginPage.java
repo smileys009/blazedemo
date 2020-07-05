@@ -19,7 +19,9 @@ public class loginPage {
 	}    
 
     public void loginProper(String un, String pw) {
+        driver.findElement(userName).clear();
         driver.findElement(userName).sendKeys(un);
+        driver.findElement(password).clear();
         driver.findElement(password).sendKeys(pw);
     }
     
@@ -28,6 +30,4 @@ public class loginPage {
     	driver.findElement(registerButton).click();
         return driver.findElement(registerError).getText();
     }
-
 }
-
