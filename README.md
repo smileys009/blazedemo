@@ -1,4 +1,4 @@
-# mavenPOM
+# blazedemo
 A basic project to demonstrate a basic page object model framework for selenium. Web app under test is Blazedemo
 
 **Prerequisite**
