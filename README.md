@@ -1,5 +1,5 @@
 # mavenPOM
-A basic project to demonstrate a basic page object model framework for selenium.
+A basic project to demonstrate a basic page object model framework for selenium. Web app under test is Blazedemo
 
 **Prerequisite**
 1. Java environment 
@@ -20,4 +20,4 @@ A basic project to demonstrate a basic page object model framework for selenium.
 4. smokeTestSuitePass.xml - has no issue while regressionTestSuiteFail.xml - has 1 issue to demonstrate screenshot capabilities in the extent report
   
 It will generate a html report which can be accessed in the folder: {root}\TestReport.
-Filename is Locust-Automation-Report.html
+Filename is Blazedemo-Automation-Report.html
