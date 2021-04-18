@@ -1,4 +1,4 @@
-package com.weframeandwork.qa.report;
+package com.blazedemo.qa.report;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -12,7 +12,7 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
-import com.weframeandwork.qa.util.testUtil;
+import com.blazedemo.qa.util.testUtil;
 
 public class testListener implements ITestListener {
 

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Locust Regression Test Suite">
+<suite name="Blazedemo Regression Test Suite">
  	<listeners>
-		<listener class-name="com.weframeandwork.qa.report.testListener"/>
+		<listener class-name="com.blazedemo.qa.report.testListener"/>
 	</listeners>
 
     <test name="Regression Test">
         <classes>
-            <class name="com.weframeandwork.qa.testcases.mixedResultTest"/>
+            <class name="com.blazedemo.qa.testcases.AboutUsTest"/>
         </classes>
     </test>
+
 </suite>

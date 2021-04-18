@@ -1,4 +1,4 @@
-package com.weframeandwork.qa.util;
+package com.blazedemo.qa.util;
 
 import java.io.File;
 import java.util.Date;
@@ -6,9 +6,10 @@ import java.util.Date;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import com.weframeandwork.qa.base.testBase;
 
-public class testUtil extends testBase {
+import com.blazedemo.qa.base.TestBase;
+
+public class testUtil extends TestBase {
 	public String takeScreenshot(String methodName)
 	{
 		String fileName = getScreenshotName(methodName);

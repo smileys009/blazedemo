@@ -1,4 +1,4 @@
-package com.weframeandwork.qa.report;
+package com.blazedemo.qa.report;
 
 import java.util.HashMap;
 import java.util.Map;
